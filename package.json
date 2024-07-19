@@ -1,0 +1,24 @@
+{
+  "name": "bot-nofity-email-sender",
+  "version": "1.0.0",
+  "description": "A Node.js application that retrieves emails from Gmail and sends the content to a Discord channel",
+  "author": "N2Dev",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
