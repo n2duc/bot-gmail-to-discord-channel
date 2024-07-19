@@ -134,6 +134,7 @@ function sendToDiscord(embed) {
   client.channels.fetch(DISCORD_CHANNEL_ID)
     .then(channel => {
       channel.send({ embeds: [embed] });
+      console.log('Email sent to Discord!');
     })
     .catch(console.error);
 }
