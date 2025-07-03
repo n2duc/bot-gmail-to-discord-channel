@@ -142,6 +142,7 @@ function sendToDiscord(embed) {
 
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}!`);
+    console.log(client.user.id);
 });
 
 client.login(DISCORD_TOKEN);
